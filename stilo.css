@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://img.wallpapersafari.com/desktop/1600/900/51/43/YZuGTL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    }
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#formulario input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#formulario input:hover{
+    background-color: #d4d8da;
+}
+
+#formulario button {
+    border: none;
+    padding: 11px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+#formulario button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transition: all .3s ease-in-out;
+}
+
+#campoCliente{
+    border-radius: 5px;
+    width: auto;
+    display: inline-flex;
+    align-items: flex-start;
+    margin: 10px;
+    justify-content: space-between;
+    border: 1px solid rgb(172, 171, 171);
+    background-color: rgb(233, 232, 232); 
+}
+
+
+#clientes{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#divDados{
+    width: 95%;
+    padding: 10px;
+}
+
+#campoCliente:hover{
+    top: -2px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    transition: all .2s ease-in-out;
+}
+
+#campoCliente img{
+    width: 120px;
+    height: 140px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#campoCliente img{
+    border-radius: 5px;
+}
